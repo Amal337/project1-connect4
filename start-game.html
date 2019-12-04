@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- This is Project1 for SEI by Amal Abdulmoti  | December 2019-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connect4 Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+       <h1>   </h1>
+       <!-- <h3 id="yourTurn"></h3> -->
+   </header>
+
+    <!-- the game board-->
+    <div class="board" id="main">
+       <!--column 1 -->
+     <div class="col1">
+        <div class="box" id="box-0" ></div>
+        <div class="box" id="box-4" ></div>
+        <div class="box" id="box-8" ></div>
+        <div class="box" id="box-12" ></div>
+     </div>
+        <!--column 2 -->
+     <div class="col2">
+        <div class="box" id="box-1"></div>
+        <div class="box" id="box-5"></div>
+        <div class="box" id="box-9"></div>
+        <div class="box" id="box-13"></div>
+      </div>
+        <!--column 3 -->
+     <div class="col3">
+        <div class="box" id="box-2"></div>
+        <div class="box" id="box-6"></div>
+        <div class="box" id="box-10"></div>
+        <div class="box" id="box-14"></div>
+      </div>
+        <!--column 4 -->
+     <div class="col4">
+        <div class="box" id="box-3"></div>
+        <div class="box" id="box-7"></div>
+        <div class="box" id="box-11"></div>
+        <div class="box" id="box-15"></div>
+     </div>
+    </div>
+
+<!-- Gamer's board-->
+     <div class="board2">
+       <div class="players">
+          <h4 class="scr">Score <i class="nes-icon coin is-small"></i></h4>
+         <h4 class="p1"></h4>
+         <h4 class="p2"></h4>
+       </div>
+       <div class="button">
+         <button id="button" >Play again</button>
+       </div>
+    </div>
+    <audio autoplay src="sounds/board.mp3" type="audio/mpeg"></audio>
+
+
+
+<!--JavaScript link file-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
