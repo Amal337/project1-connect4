@@ -7,7 +7,7 @@ Connect 4:
 
 This is my first project of SEI with GA. 
 the goal is to create this game from scratch and having fun while doing that. ^^
-It was definitely a challange.
+It was definitely a challange, but also really good experince.
 
 what is the logic of this game?
 
@@ -38,6 +38,10 @@ I used a function with if statment to check all rows, columns and diagonal to fi
 Favorite part?
 using jQuery was so much fun. 
 
+wanna try my game? follow the link..
+https://amal337.github.io/project1-connect4/. 
+use internet explorer or mircrosoft edge for better experince
+for some reason it does not work with chrome 
 
 
 css library:
